@@ -1,0 +1,36 @@
+.how-to-order-content {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+h2 {
+  font-family: 'RalewayBold', sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  color: #9F0908;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.three-cols {
+  margin-top: 64px;
+  font-family: 'Economica';
+  font-size: 56px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  div {
+    flex-direction: column;
+    gap: 16px;
+    width: 200px;
+    text-align: center;
+    p {
+      text-wrap: wrap;
+    }
+    img {
+      width: 128px;
+    }
+  }
+}
+

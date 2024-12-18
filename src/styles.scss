@@ -1,4 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
+$color-default-text: #000000;
+$color-h2-text: #9F0908;
+$color-dish-price-text: #675E54;
+$color-footer: #0A141E;
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+@font-face {
+  font-display: swap;
+  font-family: 'RalewayRegular';
+  font-style: normal;
+  font-weight: 500;
+  src: url(./assets/fonts/Raleway/static/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'RalewayBold';
+  font-style: normal;
+  font-weight: 800;
+  src: url(./assets/fonts/Raleway/static/Raleway-Bold.ttf);
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'RalewaySemiBold';
+  font-style: normal;
+  font-weight: 600;
+  src: url(./assets/fonts/Raleway/static/Raleway-SemiBold.ttf);
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'RalewayExtraBold';
+  font-style: normal;
+  font-weight: 900;
+  src: url(./assets/fonts/Raleway/static/Raleway-ExtraBold.ttf);
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Economica';
+  font-style: normal;
+  font-weight: 500;
+  src: url(./assets/fonts/Economica/Economica-Regular.ttf);
+}
+
+
+
+
 * {
   margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }

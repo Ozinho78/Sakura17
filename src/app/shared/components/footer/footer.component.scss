@@ -1,0 +1,25 @@
+.footer-content {
+  font-family: 'RalewayRegular';
+  color: whitesmoke;
+  background-color: #0A141E;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 120px;
+  height: 144px;
+  font-size: 32px;
+  // margin-top: 120px;
+}
+
+.footer-left {
+  img {
+    height: 44px;
+  }
+}
+
+.footer-right {
+  &:hover {
+    cursor: pointer;
+    scale: 1.1;
+  }
+}
